@@ -25,6 +25,7 @@ public class OreizonBlock {
 //	Ores		
 		oreHematiteOre = new HematiteOre(Material.rock).setBlockName("HematiteOre").setHardness(10).setCreativeTab(OreizonCreativeTabs.tabOre);
 		oreMagnetiteOre= new MagnetiteOre(Material.rock).setBlockName("MagnetiteOre").setHardness(10).setCreativeTab(OreizonCreativeTabs.tabOre);
+		oreCupriteOre= new CupriteOre(Material.rock).setBlockName("CupriteOre").setHardness(10).setCreativeTab(OreizonCreativeTabs.tabOre);
 
 //	Machines
 	//	machineKilnIdle = new Kiln(false).setBlockName("Kiln").setCreativeTab(CreativeTabs.tabDecorations);
@@ -37,6 +38,7 @@ public class OreizonBlock {
 //	Ores
 		GameRegistry.registerBlock(oreHematiteOre, oreHematiteOre.getUnlocalizedName());
 		GameRegistry.registerBlock(oreMagnetiteOre, oreMagnetiteOre.getUnlocalizedName());
+		GameRegistry.registerBlock(oreCupriteOre, oreCupriteOre.getUnlocalizedName());
 		
 	//	GameRegistry.registerBlock(kilnIdle, kilnIdle.getUnlocalizedName());
 	//	GameRegistry.registerBlock(kilnActive, kilnActive.getUnlocalizedName());
