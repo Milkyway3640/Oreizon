@@ -111,7 +111,9 @@ public class OreizonWorldGenOre implements IWorldGenerator {
 	}
 
 	private void generateSurface(Random random, int chunkX, int chunkZ, World world) {
-		addOre(OreizonBlock.hematiteOre, Blocks.stone, random, world, chunkX, chunkZ, 16, 48, 5, 25, 5);
+		addOre(OreizonBlock.oreHematiteOre, Blocks.stone, random, world, chunkX, chunkZ, 16, 48, 5, 25, 5);
+		addOre(OreizonBlock.oreMagnetiteOre, Blocks.stone, random, world, chunkX, chunkZ, 12, 32, 15, 30, 5);
+		addOre(OreizonBlock.oreCupriteOre, Blocks.stone, random, world, chunkX, chunkZ, 32, 52, 7, 15, 7);
 	}
 
 	private void generateNether(Random random, int chunkX, int chunkZ, World world) {

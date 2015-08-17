@@ -3,3 +3,6 @@ item.HematiteChunk.name=Hematite Chunk
 tile.HematiteOre.name=Hematite Ore
 
 tile.Kiln.name=Kiln
+
+itemGroups.OreizonBlockTab=Oreizon Blocks
+itemGrops.OreizonItemTab=Oreizon Items
